@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchtext = {git = "git://github.com/pytorch/text.git"}
+numpy = "*"
+jupyter = "*"
+matplotlib = "*"
+nltk = "*"
+
+[dev-packages]
+"flake8" = "==3.5.0"
+bumpversion = "==0.5.3"
+pytest = "==3.7.1"
+pytest-xdist = "==1.22.5"
